@@ -1,3 +1,8 @@
+.modal-content {
+	border: none !important;
+}
+
+
 .faculty h1 {
 	margin-bottom: 2em !important;
 }
@@ -6,9 +11,11 @@
 	margin-bottom: 4em;
 }
 
+
+
 .cards {
 	.name-container {
-		background-color: white;
+		background-color: #f2f2f2;
 	}
 	.name {
 	  	font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -34,9 +41,9 @@
 	img {
 		text-align: center;
 		width: 100%;
-		padding: 80px;
+		padding: 30px;
 		padding-bottom: 10px;
-    background: white;
+    background: #f2f2f2;
 
 	}
 .no-padding {
@@ -47,7 +54,7 @@
 		text-align: center;
 	   margin-bottom: 2em;
     padding-bottom: 1em;
-		background-color: #fff;
+		background-color: #f2f2f2;
 		color: #000;
 		text-transform: uppercase;
 
@@ -106,3 +113,16 @@
 	height: 300px;
 	width: 100%;
 }
+
+
+
+.cards {
+	&:hover {
+		opacity: .8;
+		cursor: pointer;
+	}
+}
+
+
+
+

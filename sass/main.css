@@ -111,12 +111,11 @@ header {
 
 .footer-wrapper {
   font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  background: #0A497F;
   position: relative;
   z-index: 1;
-  background-color: #2e3133;
+  background-color: #dededd !important;
   padding-top: .4em;
-  color: #a5a5a5;
+  color: #333;
   border-top: 1px solid #fff;
   padding-bottom: 2em; }
   .footer-wrapper img {
@@ -155,16 +154,16 @@ header {
 .footer-title {
   margin: 1em 10px .5em 0px;
   font-weight: 600;
-  color: #595857;
-  color: white;
+  color: #333;
   font-size: 1.2em; }
 
 .footer a {
   color: #d9d9de;
+  color: #222;
   text-decoration: none; }
   .footer a:hover {
     text-decoration: none !important;
-    color: #faba04; }
+    color: #0a8ce5; }
 
 .footer p {
   margin: .3em .2em;
@@ -211,7 +210,7 @@ header {
 .footer-column {
   width: 49%;
   margin-top: 0px;
-  color: #ddd;
+  color: #333;
   height: 11em;
   display: inline-block;
   margin: auto;
@@ -260,7 +259,6 @@ header {
   font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 600;
   border-bottom: 1px solid #aaa;
-  color: #ddd;
   font-size: 1.2em; }
 
 .footer-column p {
@@ -286,11 +284,11 @@ header {
   text-decoration: underline; }
 
 #copyright {
-  color: #ddd;
+  color: #333;
   font-size: .9em;
   display: block;
   width: 100%;
-  background-color: #2e3133;
+  background-color: #dededd;
   border-top: 1px solid #fff;
   padding: 5px 0px;
   margin-top: 0px; }
@@ -298,7 +296,7 @@ header {
     text-align: center;
     margin: .2em 1em; }
   #copyright a {
-    color: #ddd;
+    color: #333;
     text-decoration: none; }
     #copyright a:hover {
       text-decoration: underline; }
@@ -356,7 +354,7 @@ textarea.form-control {
 
 #btn-positive-submit {
   display: inline-block !important;
-  background: #f14c2e;
+  background: #0a8ce5;
   background: -moz-linear-gradient(top, #f14c2e 0%, #d8452e 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f14c2e), color-stop(100%, #d8452e));
   background: -webkit-linear-gradient(top, #f14c2e 0%, #d8452e 100%);
@@ -826,6 +824,9 @@ input [type="file"] {
   margin-bottom: 2em;
   margin-top: 4em; }
 
+.modal-content {
+  border: none !important; }
+
 .faculty h1 {
   margin-bottom: 2em !important; }
 
@@ -833,7 +834,7 @@ input [type="file"] {
   margin-bottom: 4em; }
 
 .cards .name-container {
-  background-color: white; }
+  background-color: #f2f2f2; }
 .cards .name {
   font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 1.5em;
@@ -858,9 +859,9 @@ input [type="file"] {
 .cards img {
   text-align: center;
   width: 100%;
-  padding: 80px;
+  padding: 30px;
   padding-bottom: 10px;
-  background: white; }
+  background: #f2f2f2; }
 .cards .no-padding {
   padding-left: 0px !important;
   padding-right: 0px !important; }
@@ -868,7 +869,7 @@ input [type="file"] {
   text-align: center;
   margin-bottom: 2em;
   padding-bottom: 1em;
-  background-color: #fff;
+  background-color: #f2f2f2;
   color: #000;
   text-transform: uppercase; }
   .cards .details .name {
@@ -915,6 +916,10 @@ input [type="file"] {
   background-color: white;
   height: 300px;
   width: 100%; }
+
+.cards:hover {
+  opacity: .8;
+  cursor: pointer; }
 
 #about {
   font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -974,13 +979,13 @@ iframe {
   max-width: 800px; }
 
 .btn-main {
-  background-color: #ccc;
+  background-color: #0a8ce5;
   border: 1px solid #ccc;
   padding: 1em 2em;
   display: block;
   margin: auto;
   border-radius: 0px;
-  color: #333;
+  color: #eee;
   text-transform: uppercase;
   font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif; }
 
@@ -1380,6 +1385,10 @@ h2 {
   margin: auto;
   max-width: 1100px; }
 
+.btn-main {
+  background-color: #0a8ce5 !important;
+  color: #fff !important; }
+
 video {
   z-index: 0;
   position: relative;
@@ -1467,11 +1476,13 @@ h6 {
   margin-top: 5em; }
 
 h2 .btn-main {
-  background-color: #ccc;
+  background-color: #0a8ce5;
   border-radius: 0px;
-  color: #333;
+  color: #eee;
   text-transform: uppercase;
   font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif; }
+  h2 .btn-main:hover {
+    color: #ddd; }
 
 a {
   text-decoration: none; }
