@@ -1,0 +1,29 @@
+<header ng-controller="HeaderController as hc">
+    <div class="site-logo">
+      <a ng-click="hc.goTo('home')" href="index.html"><img src="assets/logo-blue.png"/></a>
+    </div>
+
+    <span ng-animate="'animated'" ng-click="showMenu = !showMenu">
+      <i ng-if="windowWidth < 816" class="fa fa-bars small-menu"></i>
+    </span>
+
+    <span ng-if="windowWidth >= 816 || showMenu" class="main-header">
+      <ul class="primary-menu">
+        <li class="primary-menu-link" ng-click="hc.goTo('about')">
+          <a>About</a>
+        </li>
+        <li class="primary-menu-link" ng-click="hc.goTo('faculty')">
+          <a>Team</a>
+        </li>
+        <li class="primary-menu-link" ng-click="hc.goTo('technologies')">
+          <a>FAQ</a>
+        </li>
+        <li class="primary-menu-link" ng-click="hc.goTo('contact')">
+          <a>Contact</a>
+        </li>
+      </ul>
+      <li class="primary-menu-link nav-apply" ng-click="hc.goTo('apply')">
+        <a><i class="fa fa-bars big-menu"></i> </a>
+      </li>
+    </span>
+</header>

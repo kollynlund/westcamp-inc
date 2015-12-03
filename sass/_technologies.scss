@@ -1,0 +1,232 @@
+#technologies {
+		h1 {
+			font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+			text-transform: uppercase;
+			font-weight: 900;
+			color: #333;
+			margin-bottom: 0px;
+			margin-top: 10px;
+		}
+		.featured-tech-pdf {
+			text-align: center;
+			font-size: 1em;
+			font-style: italic;
+			margin-bottom: 2.25em;
+		}
+		.pagination, .pagination-row-2 {
+			width: 75%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			@media (max-width: 830px) {
+				width: 85%;
+			}
+			@media (max-width: 630px) {
+				width: 100%;
+			}
+		}
+    .search-box {
+        width: 100%;
+        margin-bottom: 38px;
+        display: inline-block;
+        height: 39px;
+        margin-top: 0px;
+        border-radius: 3px;
+        border: 2px solid #ddd;
+        display: inline-block;
+        padding-left: .5em;
+        @media (max-width: 767px) {
+            margin-bottom: 15px;
+        }
+    }
+    .select-style {    
+      padding: 2.7px;
+      width: 100%;
+      display: inline-block;
+      margin-top: 0px;
+      border: 2px solid #ddd;
+      border-radius: 3px;
+      background-color: #fff;
+      background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+          @media (max-width: 767px) {
+            margin-bottom: 38px;
+        }
+    }
+
+    .patent-filter {
+	    background-color: #ddd;
+	    position: relative;
+	    left: -90px;
+	    width: 20%;
+		}
+
+		.patent-list {
+	    border: 5px solid #e3e1e0;
+	    margin-bottom: 20px;
+		}
+
+		.patent-list-details {
+	    width: 88% !important;
+	    display: block !important;
+		}
+
+    .technologies-list {
+    	padding-left: 0px;
+    }
+    .patent-container {
+    background-color: #fff;
+    span {
+        margin-left: .5em;
+        font-size: .9em;
+    }
+	}
+	.patent-description {
+	    text-align: center;
+	    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	    font-size: 1em;
+	    margin-top: .1em;
+	    padding: 0px 0em .5em .5em;
+	    margin-bottom: 0px;
+	    margin-right: 1em;
+	    width: inherit;
+	    &:hover {
+	        text-decoration: none;
+	    }    
+	    @media (max-width: 500px) {
+	        font-size: .8em; 
+	        margin-top: 0px;
+	    }
+	}
+
+	.less-padding-right {
+		padding-right: 7.5px;
+		@media (max-width: 767px) {
+			padding-right: 15px !important;
+		}
+	}
+
+	.less-padding-left {
+		padding-left: 7.5px;
+		@media (max-width: 767px) {
+			padding-left: 15px !important;
+		}
+	}
+
+
+
+
+	.patent-info {
+	    text-decoration: none;
+	    color: inherit;
+	    &:hover {
+	        text-decoration: none;
+	    }
+	}
+	.patent-name {
+	    color: #333;
+	    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	    text-align: center;
+	    padding-top: .4em;
+	    margin-left: .3em;
+	    margin-top: 0em;
+	    margin-bottom: 0px;
+	    margin-right: .5em;
+	    font-size: 1.4em;
+	    display: block;
+	    line-height: 1.2em;
+	    text-transform: uppercase;
+	    &:hover {
+	        text-decoration: none;
+	    }    
+	    @media (max-width: 500px) {
+	        font-size: 1.3em; 
+	    }
+	}
+	.pagination {
+		display: block;
+		margin-top: 3em;
+		p {
+			text-align: center;
+			display: inline-block;
+			margin: auto;
+
+		}
+		.fa {
+			font-size: 2em;
+			color: #222;
+			background-color: #fff;
+			padding: .5em .6em;
+			border-radius: 3px;
+			@media (max-width: 550px) {
+				padding: .35em;
+				padding-left: .45em;
+				padding-right: .45em;
+				font-size: 1.5em;
+			}
+			&:hover {
+				cursor: pointer;
+			}
+		}
+		.pgs {
+			margin-top: .9em;
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+			justify-content: center;
+			@media (max-width: 550px) {
+				margin-top: 0em;
+			}
+			.pg {
+				font-size: 1em;
+				padding: 7px 0px;
+				font-style: italic;
+				&:hover {
+					cursor: pointer !important;
+					font-weight: bold;
+				}
+			}
+		}
+		.highlighted {
+			font-weight: bold;
+			background-color: #eee;
+			border-radius: 4px;
+		}
+	}
+
+
+	.back {
+		text-align: center;
+		padding-top: 10px;
+		width: 130px;
+		border-radius: 3px;
+		float: left;
+		background-color: #fff;
+		padding: 5px 10px;
+		margin-top: -5px;
+		font-size: .9em;
+		&:hover {
+		cursor: pointer;
+		}		
+	}	
+
+
+	.end {
+		text-align: center;
+		padding-top: 10px;
+		width: 130px;
+		border-radius: 3px;
+		float: right;
+		background-color: #fff;
+		padding: 5px 10px;
+		margin-top: -5px;
+		font-size: .9em;
+		&:hover {
+		cursor: pointer;
+		}
+		}
+
+}
+
+.page-button-disabled {
+	display: none !important;
+}
