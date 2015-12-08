@@ -12,7 +12,7 @@
 @import "technologies";
 @import "technology";
 
-
+$primary-font: Dosis ,Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
 
 .clearfix:after { 
    content: "."; 
@@ -57,7 +57,7 @@ h2 {
 	color: #6d6e70;
 	font-weight: 800;
 	h1 {	
-		font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family: $primary-font;
 		font-weight: 900;
 		text-transform: uppercase;
 		color: #333;
@@ -76,8 +76,18 @@ h2 {
 .btn-main {
     background-color: #0a8ce5 !important;
     color: #fff !important;
+    padding: 15px 28px;
+    font-size: 1.125em;
 }
 
+#home {
+	.btn-main {
+	    background-color: #0a8ce5 !important;
+	    color: #fff !important;
+	    padding: 15px 28px;
+	    font-size: 1.125em;
+	}
+}
 
 video {
 	z-index: 0;
@@ -103,7 +113,7 @@ video {
 		margin: 0px;
 	}
 	h1 {
-		font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family: $primary-font;
 		font-weight: 900;
 		text-transform: uppercase;
 		color: #eee !important;
@@ -111,6 +121,7 @@ video {
 		padding-top: 30px;
 	}
 		h2 {
+		font-family: $primary-font;
 		color: #eee;
 		text-shadow: 2px 2px 2px #000;
 		width: 60%;
@@ -150,23 +161,25 @@ video {
 		width: 170px;
 	}
 	h1 {	
-		font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family: $primary-font;
 		font-weight: 900;
 		text-transform: uppercase;
 		color: #eee !important;
 		text-shadow: 2px 2px 2px #000;
-		@media (max-width: 1000px) {
 		font-size: 2.5em !important;
+		@media (max-width: 1000px) {
+		font-size: 3.5em !important;
 	}
 	}
 	h2 {
 		color: #eee;
+		font-family: $primary-font;
 		text-shadow: 2px 2px 2px #000;
 		width: 60%;
 		font-weight: 300;
 		margin: auto;
 		margin-bottom: 20px;
-		font-size: 2em;
+		font-size: 2em !important;
 	@media (max-width: 1000px) {
 		font-size: 1.125em;
 	}
@@ -187,13 +200,10 @@ h6 {
 	margin-top: 5em;
 }
 
-h2 .btn-main {
-	// background-color: rgba(250, 186, 4, .5) !important;
-	// background-color: #7a0404;
-	// border: 2px solid #faba04;
-	// background-color: #ccc;
+.btn-main {
 	background-color: #0a8ce5;
-	border-radius: 0px;
+	padding: 7px 10px;
+	border-radius: 0px !important;
 	color: #eee;
 	text-transform: uppercase;
 	font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -274,54 +284,6 @@ input[placeholder="you@yours.com"] {
 }
 
 
-// footer {
-// 	background-color: #f2f2f2;
-//     padding-top: 1.5em;
-//     padding-bottom: 1.5em;
-//     text-align: center;
-//     position: fixed;
-//     bottom: 0px;
-//         color: #6d6e70;
-//     width: 100%;
-// }
-
-
-
-
-#overlay {
-  background: rgba(0,0,0,0.9);
-  width: 100%;
-  z-index: 2000;
-  height: 100vw;
-  position:absolute;
-  top:0;
-  left:0;
-  display:none;
-  text-align:center;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
-
-    
-    
-}
-
-#overlay img {
-margin-top: 5%;
-width: 45%;
-}
-
-#overlay p {
-color: white;
-margin-top: 2em;
-}
-
-
-
 
 
 
@@ -344,66 +306,6 @@ margin-top: 2em;
 
 
 
-
-
-
-
-
-.search-patents-icon {
-    background-color: #ddd;
-    padding: 9px 10px 11px 10px; 
-    border-top-right-radius: 3px; 
-    border-bottom-right-radius: 3px; 
-    color: #333;
-    margin-left: -4px;
-}
-
-.search-patents-input {
-    height: 30px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-    border: 2px solid #ddd;
-    display: inline-block;
-}
-
-
-#clear-search {
-    float: right;
-    font-size: .9em;
-    color: #333;
-    margin-bottom: .05em;
-    @media (max-width: 760px) {
-        display: block;
-        margin-bottom: .6em;
-        text-align: center;
-        border-radius: 2px;
-        text-decoration: none;
-        background-color: #ccc;
-        padding: .8em;
-        float: none;
-        color: #444;
-        text-transform: uppercase;
-        font-weight: 600;
-    }
-}
-
-#search-go {
-    width: 33%;
-    text-align: center;
-    border: 1px solid #eee;
-    background: #666;
-    color: #FFF;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;    
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 10px;
-    @media (max-width: 760px) {
-        width: 100%;
-        float: none;
-        margin: .5em 0 .5em 0;
-    }
-}
 
 .warning {
     text-align: center;

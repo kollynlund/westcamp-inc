@@ -1,3 +1,6 @@
+$primary-font: Dosis ,Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+
 .modal-content {
 	border: none !important;
 }
@@ -18,8 +21,8 @@
 		background-color: #f2f2f2;
 	}
 	.name {
-	  	font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	  	font-size: 1.5em;
+	  	font-family: $primary-font;
+	  	font-size: 1.65em;
 	  	position: relative;
 	  	padding-top: 10px;
 	  	color: #333;
@@ -59,8 +62,6 @@
 		text-transform: uppercase;
 
 	  .name {
-	  	font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	  	font-size: 1.5em;
 	  	position: relative;
 		  white-space: nowrap;
 			width: 100%;                   

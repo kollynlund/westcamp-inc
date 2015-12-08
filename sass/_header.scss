@@ -1,3 +1,6 @@
+$primary-font: Dosis ,Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+
 header {
 	width: 100%;
 	border-bottom: solid 1px #d9d9de;
@@ -49,6 +52,8 @@ header {
 .primary-menu li {
     z-index: 500;
     position: relative;
+    font-family: $primary-font;
+    font-size: 2em;
     &:hover {
         cursor: pointer;
     }
@@ -99,7 +104,7 @@ header {
 	padding: 22px 20px 24px 20px;
 	color: #828587;
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: .05em;
     &:hover {

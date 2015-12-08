@@ -1,5 +1,8 @@
+$primary-font: Dosis ,Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+
 .footer-wrapper {
-  font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: $primary-font;
   // background: #0A497F;
   position: relative;
   z-index: 1;
@@ -92,7 +95,7 @@
 
 #copyright {
   text-align: center;
-  font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: $primary-font;
   color: #d9d9de;
   font-size: .9em;
   display: block;
@@ -199,7 +202,7 @@
   margin: 0;
   text-align: left; 
   padding-right: 3px;
-  font-size: .9em;
+  font-size: 1em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -211,10 +214,10 @@
 
 .footer-title {
   margin: 5px 10px 5px 5px;
-  font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: $primary-font;
   font-weight: 600;
   border-bottom: 1px solid #aaa;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .footer-column p {
@@ -223,7 +226,7 @@
 
 .footer-column li {
   margin-left: 5px;
-  font-size: .9em;
+  font-size: 1em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -250,7 +253,7 @@
 
 #copyright {
   color: #333;
-  font-size: .9em;
+  font-size: 1em;
   display: block;
   width: 100%;
   // background-color: #2e3133;

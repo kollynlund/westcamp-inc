@@ -1,3 +1,6 @@
+$primary-font: Dosis ,Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+
 #contact {
 	background-color: #fff;
 }
@@ -110,15 +113,15 @@ textarea.form-control {
     margin-bottom: 10px;
 }
 
-.contact-text {
-	margin-bottom: 3em;
-}
+
 
 .contact-form {
 	max-width: 550px;
 	display: block;
 	margin: auto;
+
 	input[type="submit"] {
+        margin-top: 2em;
 		margin-bottom: 2em;
 	}
 }
@@ -130,9 +133,12 @@ label {
 
 .contact-text {
 	width: 50%; 
+    margin-bottom: 3em;
 	text-align: center; 
 	margin-left: auto; 
-	margin-right: auto;  
+	margin-right: auto; 
+    font-family: $primary-font;
+    font-size: 1.25em; 
 }
 
 .shirt-details form {
@@ -281,8 +287,9 @@ input[type="submit"], .ip-contact {
 }
 
 .contact-text-sm {
-    font-size: .9em;
     text-align: center;
+    font-family: $primary-font;
+    font-size: 1.25em; 
 }
 
 

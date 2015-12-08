@@ -1,11 +1,17 @@
+$primary-font: Dosis ,Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+$text-font: PT Sans ,Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+
+
 #modal {
-	font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	
 	width: 90%;
 	margin: auto;
 	padding: 2em .5em;
 	h1 {
+		font-family: $primary-font;
 		text-transform: uppercase;
-		font-size: 2em;
+		font-size: 2.125em;
 		font-weight: 800;
 		margin-bottom: 6px;
 		&:first-child {
@@ -18,11 +24,13 @@
 	  }
 	}
 	h2 {
-		font-size: 1.25em;
+		font-family: $primary-font;
+		font-size: 1.5em;
 		margin-top: 0px; 
 		margin-bottom: 2em;
 	}
 	p {
+		font-family: $text-font;
 		line-height: 25px;
 		font-size: 1.125em;
 	}
